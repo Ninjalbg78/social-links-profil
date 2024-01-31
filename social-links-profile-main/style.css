@@ -1,0 +1,88 @@
+/* FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+/* ### Primary
+
+- Green: hsl(75, 94%, 57%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Grey: hsl(0, 0%, 20%)
+- Dark Grey: hsl(0, 0%, 12%)
+- Off Black: hsl(0, 0%, 8%) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.4rem;
+  background-color: hsl(0, 0%, 8%);
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container-card {
+  background-color: hsl(0, 0%, 12%);
+  max-width: 32rem;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+}
+.container-profil {
+  text-align: center;
+}
+.profil-img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 10rem;
+  margin-bottom: 1rem;
+}
+h1 {
+  font-size: 1.8rem;
+}
+.place {
+  color: hsl(75, 94%, 57%);
+  padding: 0.5rem;
+  padding-bottom: 2rem;
+}
+p {
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+}
+.link-div:link,
+.link-div:visited {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.container-link {
+  background-color: hsl(0, 0%, 20%);
+  transition: all 0.2s;
+}
+.container-link:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
+.GitHub,
+.frontend,
+.Linkedln,
+.Twitter,
+.Instagram {
+  padding: 1rem 8rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
