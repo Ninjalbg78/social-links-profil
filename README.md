@@ -5,4 +5,4 @@ This is a solution to Huddle Landing Page the on Frontend Mentor. Frontend Mento
 ## Live solution: 
 https://elishay-social-links.netlify.app/
 ## Frontend Live:
-
+https://www.frontendmentor.io/solutions/sociallinksprofileof-me-SHoDaIajG5
